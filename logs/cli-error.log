@@ -1,0 +1,255 @@
+2020-11-29 12:36:15 Error: [RuntimeException] Unknown command `cake migration`. Run `cake --help` to get the list of valid commands. in /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/Console/CommandRunner.php on line 346
+Stack Trace:
+#0 /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/Console/CommandRunner.php(157): Cake\Console\CommandRunner->resolveName(Object(Cake\Console\CommandCollection), Object(Cake\Console\ConsoleIo), 'migration')
+#1 /Users/manato/Desktop/biz-trip/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#2 {main}
+
+
+2020-11-29 12:36:20 Error: [RuntimeException] Unknown command `cake migration`. Run `cake --help` to get the list of valid commands. in /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/Console/CommandRunner.php on line 346
+Stack Trace:
+#0 /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/Console/CommandRunner.php(157): Cake\Console\CommandRunner->resolveName(Object(Cake\Console\CommandCollection), Object(Cake\Console\ConsoleIo), 'migration')
+#1 /Users/manato/Desktop/biz-trip/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#2 {main}
+
+
+2020-11-29 13:35:50 Error: [Cake\Database\Exception] Cannot describe tops. It has 0 columns. in /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 100
+Stack Trace:
+#0 /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(61): Cake\Database\Schema\Collection->describe('tops', Array)
+#1 /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/ORM/Table.php(566): Cake\Database\Schema\CachedCollection->describe('tops')
+#2 /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/ORM/Table.php(691): Cake\ORM\Table->getSchema()
+#3 /Users/manato/Desktop/biz-trip/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php(288): Cake\ORM\Table->getPrimaryKey()
+#4 /Users/manato/Desktop/biz-trip/vendor/cakephp/bake/src/Shell/Task/TemplateTask.php(142): Bake\Shell\Task\TemplateTask->_loadController()
+#5 /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/Console/Shell.php(531): Bake\Shell\Task\TemplateTask->main('Tops')
+#6 /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/Console/Shell.php(524): Cake\Console\Shell->runCommand(Array, false, Array)
+#7 /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/Console/CommandRunner.php(384): Cake\Console\Shell->runCommand(Array, true)
+#8 /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/Console/CommandRunner.php(162): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#9 /Users/manato/Desktop/biz-trip/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#10 {main}
+
+
+2020-11-29 13:36:13 Error: [Cake\Database\Exception] Cannot describe tops. It has 0 columns. in /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 100
+Stack Trace:
+#0 /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(61): Cake\Database\Schema\Collection->describe('tops', Array)
+#1 /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/ORM/Table.php(566): Cake\Database\Schema\CachedCollection->describe('tops')
+#2 /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/ORM/Table.php(691): Cake\ORM\Table->getSchema()
+#3 /Users/manato/Desktop/biz-trip/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(221): Cake\ORM\Table->getPrimaryKey()
+#4 /Users/manato/Desktop/biz-trip/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(131): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 /Users/manato/Desktop/biz-trip/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(114): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'tops', 'Tops')
+#6 /Users/manato/Desktop/biz-trip/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(101): Bake\Shell\Task\ModelTask->bake('Tops')
+#7 /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/Console/Shell.php(531): Bake\Shell\Task\ModelTask->main('Tops')
+#8 /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/Console/Shell.php(524): Cake\Console\Shell->runCommand(Array, false, Array)
+#9 /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/Console/CommandRunner.php(384): Cake\Console\Shell->runCommand(Array, true)
+#10 /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/Console/CommandRunner.php(162): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#11 /Users/manato/Desktop/biz-trip/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#12 {main}
+
+
+2020-11-29 14:29:51 Error: [RuntimeException] Unknown command `cake migration`. Run `cake --help` to get the list of valid commands. in /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/Console/CommandRunner.php on line 346
+Stack Trace:
+#0 /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/Console/CommandRunner.php(157): Cake\Console\CommandRunner->resolveName(Object(Cake\Console\CommandCollection), Object(Cake\Console\ConsoleIo), 'migration')
+#1 /Users/manato/Desktop/biz-trip/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#2 {main}
+
+
+2020-12-12 20:00:27 Warning: Warning (2): strtolower() expects parameter 1 to be string, array given in [/Users/manato/Desktop/biz-trip/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/SQLiteAdapter.php, line 1336]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+strtolower - [internal], line ??
+Phinx\Db\Adapter\SQLiteAdapter::getSqlType() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/SQLiteAdapter.php, line 1336
+Phinx\Db\Adapter\SQLiteAdapter::getColumnSqlDefinition() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/SQLiteAdapter.php, line 1447
+Phinx\Db\Adapter\SQLiteAdapter::Phinx\Db\Adapter\{closure}() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/SQLiteAdapter.php, line 884
+Phinx\Db\Util\AlterInstructions::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Util/AlterInstructions.php, line 119
+Phinx\Db\Adapter\PdoAdapter::executeAlterSteps() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php, line 618
+Phinx\Db\Adapter\PdoAdapter::executeActions() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php, line 1020
+Phinx\Db\Adapter\AdapterWrapper::executeActions() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/AdapterWrapper.php, line 506
+Phinx\Db\Adapter\TimedOutputAdapter::executeActions() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/TimedOutputAdapter.php, line 452
+Phinx\Db\Adapter\AdapterWrapper::executeActions() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/AdapterWrapper.php, line 506
+Phinx\Db\Plan\Plan::Phinx\Db\Plan\{closure}() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Plan/Plan.php, line 154
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 64
+Phinx\Db\Plan\Plan::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Plan/Plan.php, line 155
+Phinx\Db\Table::executeActions() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Table.php, line 722
+Phinx\Db\Table::update() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Table.php, line 628
+Migrations\Table::update() - ROOT/vendor/cakephp/migrations/src/Table.php, line 130
+ChangeColumnRoleToUsers::up() - ROOT/config/Migrations/20201212103255_ChangeColumnRoleToUsers.php, line 19
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 108
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 374
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 347
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 120
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/Command/CommandTrait.php, line 35
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 66
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 258
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 920
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 266
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 142
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 108
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 531
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 169
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 162
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-12-12 20:03:22 Warning: Warning (2): strtolower() expects parameter 1 to be string, array given in [/Users/manato/Desktop/biz-trip/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/SQLiteAdapter.php, line 1336]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+strtolower - [internal], line ??
+Phinx\Db\Adapter\SQLiteAdapter::getSqlType() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/SQLiteAdapter.php, line 1336
+Phinx\Db\Adapter\SQLiteAdapter::getColumnSqlDefinition() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/SQLiteAdapter.php, line 1447
+Phinx\Db\Adapter\SQLiteAdapter::Phinx\Db\Adapter\{closure}() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/SQLiteAdapter.php, line 884
+Phinx\Db\Util\AlterInstructions::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Util/AlterInstructions.php, line 119
+Phinx\Db\Adapter\PdoAdapter::executeAlterSteps() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php, line 618
+Phinx\Db\Adapter\PdoAdapter::executeActions() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php, line 1020
+Phinx\Db\Adapter\AdapterWrapper::executeActions() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/AdapterWrapper.php, line 506
+Phinx\Db\Adapter\TimedOutputAdapter::executeActions() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/TimedOutputAdapter.php, line 452
+Phinx\Db\Adapter\AdapterWrapper::executeActions() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/AdapterWrapper.php, line 506
+Phinx\Db\Plan\Plan::Phinx\Db\Plan\{closure}() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Plan/Plan.php, line 154
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 64
+Phinx\Db\Plan\Plan::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Plan/Plan.php, line 155
+Phinx\Db\Table::executeActions() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Table.php, line 722
+Phinx\Db\Table::update() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Table.php, line 628
+Migrations\Table::update() - ROOT/vendor/cakephp/migrations/src/Table.php, line 130
+ChangeColumnRoleToUsers::up() - ROOT/config/Migrations/20201212103255_ChangeColumnRoleToUsers.php, line 19
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 108
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 374
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 347
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 120
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/Command/CommandTrait.php, line 35
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 66
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 258
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 920
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 266
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 142
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 108
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 531
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 169
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 162
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-12-20 09:15:00 Error: [InvalidArgumentException] Could not infer database type from driver in /Users/manato/Desktop/biz-trip/vendor/cakephp/migrations/src/ConfigurationTrait.php on line 156
+Stack Trace:
+#0 /Users/manato/Desktop/biz-trip/vendor/cakephp/migrations/src/ConfigurationTrait.php(81): Migrations\Command\Migrate->getAdapterName('Cake\\Database\\D...')
+#1 /Users/manato/Desktop/biz-trip/vendor/robmorgan/phinx/src/Phinx/Console/Command/AbstractCommand.php(101): Migrations\Command\Migrate->getConfig()
+#2 /Users/manato/Desktop/biz-trip/vendor/cakephp/migrations/src/Command/CommandTrait.php(64): Phinx\Console\Command\AbstractCommand->bootstrap(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /Users/manato/Desktop/biz-trip/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(63): Migrations\Command\Migrate->bootstrap(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /Users/manato/Desktop/biz-trip/vendor/cakephp/migrations/src/Command/CommandTrait.php(35): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /Users/manato/Desktop/biz-trip/vendor/cakephp/migrations/src/Command/Migrate.php(66): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /Users/manato/Desktop/biz-trip/vendor/symfony/console/Command/Command.php(258): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /Users/manato/Desktop/biz-trip/vendor/symfony/console/Application.php(920): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /Users/manato/Desktop/biz-trip/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /Users/manato/Desktop/biz-trip/vendor/symfony/console/Application.php(142): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /Users/manato/Desktop/biz-trip/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(108): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/Console/Shell.php(531): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#12 /Users/manato/Desktop/biz-trip/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(169): Cake\Console\Shell->runCommand(Array, true, Array)
+#13 /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/Console/CommandRunner.php(384): Migrations\Shell\MigrationsShell->runCommand(Array, true)
+#14 /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/Console/CommandRunner.php(162): Cake\Console\CommandRunner->runShell(Object(Migrations\Shell\MigrationsShell), Array)
+#15 /Users/manato/Desktop/biz-trip/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#16 {main}
+
+
+2020-12-20 09:16:37 Error: [InvalidArgumentException] Could not infer database type from driver in /Users/manato/Desktop/biz-trip/vendor/cakephp/migrations/src/ConfigurationTrait.php on line 156
+Stack Trace:
+#0 /Users/manato/Desktop/biz-trip/vendor/cakephp/migrations/src/ConfigurationTrait.php(81): Migrations\Command\Migrate->getAdapterName('Cake\\Database\\D...')
+#1 /Users/manato/Desktop/biz-trip/vendor/robmorgan/phinx/src/Phinx/Console/Command/AbstractCommand.php(101): Migrations\Command\Migrate->getConfig()
+#2 /Users/manato/Desktop/biz-trip/vendor/cakephp/migrations/src/Command/CommandTrait.php(64): Phinx\Console\Command\AbstractCommand->bootstrap(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#3 /Users/manato/Desktop/biz-trip/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php(63): Migrations\Command\Migrate->bootstrap(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#4 /Users/manato/Desktop/biz-trip/vendor/cakephp/migrations/src/Command/CommandTrait.php(35): Phinx\Console\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#5 /Users/manato/Desktop/biz-trip/vendor/cakephp/migrations/src/Command/Migrate.php(66): Migrations\Command\Migrate->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#6 /Users/manato/Desktop/biz-trip/vendor/symfony/console/Command/Command.php(258): Migrations\Command\Migrate->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /Users/manato/Desktop/biz-trip/vendor/symfony/console/Application.php(920): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /Users/manato/Desktop/biz-trip/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Migrate), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /Users/manato/Desktop/biz-trip/vendor/symfony/console/Application.php(142): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /Users/manato/Desktop/biz-trip/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(108): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/Console/Shell.php(531): Migrations\Shell\MigrationsShell->main('migrations', 'migrate')
+#12 /Users/manato/Desktop/biz-trip/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(169): Cake\Console\Shell->runCommand(Array, true, Array)
+#13 /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/Console/CommandRunner.php(384): Migrations\Shell\MigrationsShell->runCommand(Array, true)
+#14 /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/Console/CommandRunner.php(162): Cake\Console\CommandRunner->runShell(Object(Migrations\Shell\MigrationsShell), Array)
+#15 /Users/manato/Desktop/biz-trip/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#16 {main}
+
+
+2020-12-21 08:57:35 Error: [InvalidArgumentException] An invalid column type "" was specified for column "user_id". in /Users/manato/Desktop/biz-trip/vendor/robmorgan/phinx/src/Phinx/Db/Table.php on line 305
+Stack Trace:
+#0 /Users/manato/Desktop/biz-trip/vendor/cakephp/migrations/src/Table.php(54): Phinx\Db\Table->addColumn('user_id', NULL, Array)
+#1 /Users/manato/Desktop/biz-trip/config/Migrations/20201220235334_DropColumnsToGroups.php(23): Migrations\Table->addColumn('user_id')
+#2 /Users/manato/Desktop/biz-trip/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php(108): DropColumnsToGroups->down()
+#3 /Users/manato/Desktop/biz-trip/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(374): Phinx\Migration\Manager\Environment->executeMigration(Object(DropColumnsToGroups), 'down', false)
+#4 /Users/manato/Desktop/biz-trip/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(519): Phinx\Migration\Manager->executeMigration('default', Object(DropColumnsToGroups), 'down', false)
+#5 /Users/manato/Desktop/biz-trip/vendor/robmorgan/phinx/src/Phinx/Console/Command/Rollback.php(124): Phinx\Migration\Manager->rollback('default', 20201220033906, false, true, false)
+#6 /Users/manato/Desktop/biz-trip/vendor/cakephp/migrations/src/Command/CommandTrait.php(35): Phinx\Console\Command\Rollback->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#7 /Users/manato/Desktop/biz-trip/vendor/cakephp/migrations/src/Command/Rollback.php(67): Migrations\Command\Rollback->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#8 /Users/manato/Desktop/biz-trip/vendor/symfony/console/Command/Command.php(258): Migrations\Command\Rollback->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#9 /Users/manato/Desktop/biz-trip/vendor/symfony/console/Application.php(920): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#10 /Users/manato/Desktop/biz-trip/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Rollback), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#11 /Users/manato/Desktop/biz-trip/vendor/symfony/console/Application.php(142): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#12 /Users/manato/Desktop/biz-trip/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(108): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#13 /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/Console/Shell.php(531): Migrations\Shell\MigrationsShell->main('migrations', 'rollback')
+#14 /Users/manato/Desktop/biz-trip/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(169): Cake\Console\Shell->runCommand(Array, true, Array)
+#15 /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/Console/CommandRunner.php(384): Migrations\Shell\MigrationsShell->runCommand(Array, true)
+#16 /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/Console/CommandRunner.php(162): Cake\Console\CommandRunner->runShell(Object(Migrations\Shell\MigrationsShell), Array)
+#17 /Users/manato/Desktop/biz-trip/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#18 {main}
+
+
+2020-12-21 08:58:03 Error: [PDOException] SQLSTATE[HY000]: General error: 1 duplicate column name: user_id in /Users/manato/Desktop/biz-trip/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php on line 184
+Stack Trace:
+#0 /Users/manato/Desktop/biz-trip/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php(184): PDO->exec('ALTER TABLE `gr...')
+#1 /Users/manato/Desktop/biz-trip/vendor/robmorgan/phinx/src/Phinx/Db/Util/AlterInstructions.php(123): Phinx\Db\Adapter\PdoAdapter->execute('ALTER TABLE `gr...')
+#2 /Users/manato/Desktop/biz-trip/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php(618): Phinx\Db\Util\AlterInstructions->execute('ALTER TABLE `gr...', Array)
+#3 /Users/manato/Desktop/biz-trip/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php(1020): Phinx\Db\Adapter\PdoAdapter->executeAlterSteps('groups', Object(Phinx\Db\Util\AlterInstructions))
+#4 /Users/manato/Desktop/biz-trip/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/AdapterWrapper.php(506): Phinx\Db\Adapter\PdoAdapter->executeActions(Object(Phinx\Db\Table\Table), Array)
+#5 /Users/manato/Desktop/biz-trip/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/TimedOutputAdapter.php(452): Phinx\Db\Adapter\AdapterWrapper->executeActions(Object(Phinx\Db\Table\Table), Array)
+#6 /Users/manato/Desktop/biz-trip/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/AdapterWrapper.php(506): Phinx\Db\Adapter\TimedOutputAdapter->executeActions(Object(Phinx\Db\Table\Table), Array)
+#7 /Users/manato/Desktop/biz-trip/vendor/robmorgan/phinx/src/Phinx/Db/Plan/Plan.php(154): Phinx\Db\Adapter\AdapterWrapper->executeActions(Object(Phinx\Db\Table\Table), Array)
+#8 /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/Collection/CollectionTrait.php(64): Phinx\Db\Plan\Plan->Phinx\Db\Plan\{closure}(Object(Phinx\Db\Plan\AlterTable), 0)
+#9 /Users/manato/Desktop/biz-trip/vendor/robmorgan/phinx/src/Phinx/Db/Plan/Plan.php(155): Cake\Collection\Collection->each(Object(Closure))
+#10 /Users/manato/Desktop/biz-trip/vendor/robmorgan/phinx/src/Phinx/Db/Table.php(722): Phinx\Db\Plan\Plan->execute(Object(Migrations\CakeAdapter))
+#11 /Users/manato/Desktop/biz-trip/vendor/robmorgan/phinx/src/Phinx/Db/Table.php(628): Phinx\Db\Table->executeActions(true)
+#12 /Users/manato/Desktop/biz-trip/vendor/cakephp/migrations/src/Table.php(130): Phinx\Db\Table->update()
+#13 /Users/manato/Desktop/biz-trip/config/Migrations/20201220235334_DropColumnsToGroups.php(25): Migrations\Table->update()
+#14 /Users/manato/Desktop/biz-trip/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php(108): DropColumnsToGroups->down()
+#15 /Users/manato/Desktop/biz-trip/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(374): Phinx\Migration\Manager\Environment->executeMigration(Object(DropColumnsToGroups), 'down', false)
+#16 /Users/manato/Desktop/biz-trip/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php(519): Phinx\Migration\Manager->executeMigration('default', Object(DropColumnsToGroups), 'down', false)
+#17 /Users/manato/Desktop/biz-trip/vendor/robmorgan/phinx/src/Phinx/Console/Command/Rollback.php(124): Phinx\Migration\Manager->rollback('default', 20201220033906, false, true, false)
+#18 /Users/manato/Desktop/biz-trip/vendor/cakephp/migrations/src/Command/CommandTrait.php(35): Phinx\Console\Command\Rollback->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#19 /Users/manato/Desktop/biz-trip/vendor/cakephp/migrations/src/Command/Rollback.php(67): Migrations\Command\Rollback->parentExecute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#20 /Users/manato/Desktop/biz-trip/vendor/symfony/console/Command/Command.php(258): Migrations\Command\Rollback->execute(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#21 /Users/manato/Desktop/biz-trip/vendor/symfony/console/Application.php(920): Symfony\Component\Console\Command\Command->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#22 /Users/manato/Desktop/biz-trip/vendor/symfony/console/Application.php(266): Symfony\Component\Console\Application->doRunCommand(Object(Migrations\Command\Rollback), Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#23 /Users/manato/Desktop/biz-trip/vendor/symfony/console/Application.php(142): Symfony\Component\Console\Application->doRun(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#24 /Users/manato/Desktop/biz-trip/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(108): Symfony\Component\Console\Application->run(Object(Symfony\Component\Console\Input\ArgvInput), Object(Symfony\Component\Console\Output\ConsoleOutput))
+#25 /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/Console/Shell.php(531): Migrations\Shell\MigrationsShell->main('migrations', 'rollback')
+#26 /Users/manato/Desktop/biz-trip/vendor/cakephp/migrations/src/Shell/MigrationsShell.php(169): Cake\Console\Shell->runCommand(Array, true, Array)
+#27 /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/Console/CommandRunner.php(384): Migrations\Shell\MigrationsShell->runCommand(Array, true)
+#28 /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/Console/CommandRunner.php(162): Cake\Console\CommandRunner->runShell(Object(Migrations\Shell\MigrationsShell), Array)
+#29 /Users/manato/Desktop/biz-trip/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#30 {main}
+
+
+2020-12-21 08:58:52 Error: [RuntimeException] Unknown command `cake migration`. Run `cake --help` to get the list of valid commands. in /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/Console/CommandRunner.php on line 346
+Stack Trace:
+#0 /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/Console/CommandRunner.php(157): Cake\Console\CommandRunner->resolveName(Object(Cake\Console\CommandCollection), Object(Cake\Console\ConsoleIo), 'migration')
+#1 /Users/manato/Desktop/biz-trip/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#2 {main}
+
+
+2020-12-23 13:12:18 Error: [Cake\Database\Exception] Cannot describe groups. It has 0 columns. in /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/Database/Schema/Collection.php on line 100
+Stack Trace:
+#0 /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/Database/Schema/CachedCollection.php(61): Cake\Database\Schema\Collection->describe('groups', Array)
+#1 /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/ORM/Table.php(566): Cake\Database\Schema\CachedCollection->describe('groups')
+#2 /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/ORM/Table.php(691): Cake\ORM\Table->getSchema()
+#3 /Users/manato/Desktop/biz-trip/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(221): Cake\ORM\Table->getPrimaryKey()
+#4 /Users/manato/Desktop/biz-trip/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(131): Bake\Shell\Task\ModelTask->getAssociations(Object(Cake\ORM\Table))
+#5 /Users/manato/Desktop/biz-trip/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(114): Bake\Shell\Task\ModelTask->getTableContext(Object(Cake\ORM\Table), 'groups', 'Groups')
+#6 /Users/manato/Desktop/biz-trip/vendor/cakephp/bake/src/Shell/Task/ModelTask.php(101): Bake\Shell\Task\ModelTask->bake('Groups')
+#7 /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/Console/Shell.php(531): Bake\Shell\Task\ModelTask->main('Groups')
+#8 /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/Console/Shell.php(524): Cake\Console\Shell->runCommand(Array, false, Array)
+#9 /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/Console/CommandRunner.php(384): Cake\Console\Shell->runCommand(Array, true)
+#10 /Users/manato/Desktop/biz-trip/vendor/cakephp/cakephp/src/Console/CommandRunner.php(162): Cake\Console\CommandRunner->runShell(Object(Bake\Shell\BakeShell), Array)
+#11 /Users/manato/Desktop/biz-trip/bin/cake.php(12): Cake\Console\CommandRunner->run(Array)
+#12 {main}
+
+

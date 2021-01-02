@@ -1,0 +1,781 @@
+.disabled a,
+a.disabled {
+    pointer-events: none;
+}
+
+a:hover {
+    color: #15848F;
+}
+
+a {
+    color: #1798A5;
+}
+
+.side-nav li a:not(.button) {
+    color: #15848F;
+}
+
+.side-nav li a:not(.button):hover {
+    color: #15848F;
+}
+
+header {
+    background-color: #D33C44;
+    color: #ffffff;
+    font-size: 30px;
+    height: 84px;
+    line-height: 64px;
+    padding: 16px 0px;
+    box-shadow: 0px 1px rgba(0, 0, 0, 0.24);
+}
+
+header .header-title {
+    padding-left:80px
+}
+
+legend {
+    color:#15848F;
+}
+
+.row {
+    max-width: 80rem;
+}
+
+.actions.columns {
+    margin-top:1rem;
+    border-left: 5px solid #15848F;
+    padding-left: 15px;
+    padding: 32px 20px;
+}
+
+.actions.columns h3 {
+    color:#15848F;
+}
+
+.related table {
+    border: 0;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.index table thead {
+    height: 3.5rem;
+}
+
+.header-help {
+    float: right;
+    margin-right:2rem;
+    margin-top: -80px;
+    font-size:16px;
+}
+
+.header-help span {
+    font-weight: normal;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1;
+    white-space: nowrap;
+    display: inline-block;
+    padding: 0.25rem 0.5rem 0.375rem;
+    font-size: 0.8rem;
+    background-color: #0097a7;
+    color: #FFF;
+    border-radius: 1000px;
+}
+
+.header-help a {
+    color: #fff;
+}
+
+ul.pagination li a {
+    color: rgba(0, 0 ,0 , 0.54);
+}
+
+ul.pagination li.active a {
+    background-color: #DCE47E;
+    color: #FFF;
+    font-weight: bold;
+    cursor: default;
+}
+ul.pagination .disabled:hover a {
+    background: none;
+}
+
+.paginator {
+    text-align: center;
+}
+
+.paginator ul.pagination li {
+    float: none;
+    display: inline-block;
+}
+
+.paginator p {
+    text-align: right;
+    color: rgba(0, 0 ,0 , 0.54);
+}
+
+.asc:after {
+    content: " \2193";
+}
+.desc:after {
+    content: " \2191";
+}
+
+.form .error-message {
+    display: block;
+    padding: 0.375rem 0.5625rem 0.5625rem;
+    margin-top: -1px;
+    margin-bottom: 1rem;
+    font-size: 0.75rem;
+    font-weight: normal;
+    font-style: italic;
+    color: rgba(0, 0, 0, 0.54);
+}
+
+.required > label {
+    font-weight: bold;
+}
+.required > label:after {
+    content: ' *';
+    color: #C3232D;
+}
+
+select[multiple] {
+    min-height:150px;
+    background: none;
+}
+input[type=checkbox],
+input[type=radio] {
+    margin-right: 0.5em;
+}
+
+.date select,
+.time select,
+.datetime select {
+    display: inline;
+    width: auto;
+    margin-right: 10px;
+}
+
+.error label,
+.error label.error {
+    color: #C3232D;
+}
+
+.view h2 {
+    color: #6F6F6F;
+}
+
+.view .columns.strings {
+    border-radius: 3px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.24);
+    margin-right:0.7rem;
+}
+
+.view .numbers {
+    background-color: #B7E3EC;
+    color: #FFF;
+    border-radius: 3px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.24);
+    margin-right: 0.7rem;
+}
+
+.view .columns.dates {
+    border-radius: 3px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.24);
+    margin-right:0.7rem;
+    background-color:#DCE47E;
+    color: #fff;
+}
+
+.view .columns.booleans {
+    border-radius: 3px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.24);
+    margin-right:0.7rem;
+    background-color: #8D6E65;
+    color: #fff;
+}
+
+.view .strings p {
+    border-bottom: 1px solid #eee;
+}
+.view .numbers .subheader, .view .dates .subheader {
+    color:#747474;
+}
+.view .booleans .subheader {
+    color: #E9E9E9
+}
+
+.view .texts .columns {
+    margin-top:1.2rem;
+    border-bottom: 1px solid #eee;
+}
+
+/** Notices and Errors **/
+.cake-error,
+.cake-debug,
+.notice,
+p.error,
+p.notice {
+    display: block;
+    clear: both;
+    background-repeat: repeat-x;
+    margin-bottom: 18px;
+    padding: 7px 14px;
+    border-radius: 3px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.24);
+}
+
+.cake-debug,
+.notice,
+p.notice {
+    color: #000000;
+    background: #ffcc00;
+}
+
+.cake-error,
+p.error {
+    color: #fff;
+    background: #C3232D;
+}
+
+pre {
+    background: none repeat scroll 0% 0% #FFF;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.24);
+    margin: 15px 0px;
+    color: rgba(0, 0 ,0 , 0.74);
+    padding:5px;
+}
+
+.cake-error .cake-stack-trace {
+    margin-top:10px;
+}
+
+.cake-stack-trace code {
+    background: inherit;
+    border:0;
+}
+
+.cake-code-dump .code-highlight {
+    display: block;
+    background-color: #FFC600;
+}
+
+.cake-error a,
+.cake-error a:hover {
+    color:#fff;
+    text-decoration: underline;
+}
+
+.checks {
+    padding:30px;
+    color: #626262;
+    background-color: #B7E3EC;
+    border-radius: 3px;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.24);
+    margin-bottom: 2em;
+}
+
+.checks h4 {
+    margin-bottom: 1.5rem;
+}
+
+.checks hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.checks .success,
+.checks .problem {
+    margin-left: 10px;
+}
+.checks .success:before,
+.checks .problem:before {
+    line-height: 0px;
+    font-size: 28px;
+    height: 12px;
+    width: 12px;
+    border-radius: 15px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    left: -11px;
+}
+
+.checks .success:before {
+    content: "✓";
+    color: green;
+    margin-right: 9px;
+}
+
+.checks .problem:before {
+    content: "✘";
+    color: red;
+    margin-right: 9px;
+}
+
+.top-bar.expanded .title-area {
+    background: #01545b;
+}
+
+.top-bar.expanded, .top-bar,.top-bar-section ul li,.top-bar-section li:not(.has-form) a:not(.button) {
+    background: #116d76;
+}
+
+.top-bar-section li:not(.has-form) a:not(.button):hover {
+    background-color: #308e97;
+    background: #308e97;
+}
+
+.side-nav li.heading {
+    color: #1798A5;
+    font-size: 0.875rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 0.4375rem 0.875rem;
+}
+
+#actions-sidebar {
+    background: #fafafa;
+}
+
+.index table {
+    margin-top: 0rem;
+    border: 0;
+    width: 100%;
+    table-layout: fixed;
+}
+
+table {
+    background: #fff;
+    margin-bottom: 1.25rem;
+    border: none;
+    table-layout: fixed;
+    width: 100%;
+}
+
+table thead {
+    background: none;
+}
+
+table tr {
+    border-bottom: 1px solid #ebebec;
+}
+
+table thead tr {
+    border-bottom: 1px solid #1798A5;
+}
+
+table tr th {
+    padding: 0.5625rem 0.625rem;
+    font-size: 0.875rem;
+    color: #1798A5;
+    text-align: left;
+    border-bottom: 2px solid #1798A5;
+}
+
+table tr:nth-of-type(even) {
+    background: none;
+}
+
+fieldset {
+    border: none;
+    padding: 1.25rem;
+    margin: 1.125rem 0;
+}
+
+fieldset legend {
+    border-bottom: 2px solid #1798A5;
+    width: 100%;
+    line-height: 2rem;
+}
+
+.form button[type="submit"] {
+    float: right;
+    text-transform: uppercase;
+    box-shadow: none;
+}
+
+.form button:hover, .form button:focus {
+    background: #BE840B;
+    box-shadow: none;
+}
+
+button {
+    background: #966600;
+}
+
+div.message {
+    text-align: center;
+    cursor: pointer;
+    display: block;
+    font-weight: normal;
+    padding: 0 1.5rem 0 1.5rem;
+    transition: height 300ms ease-out 0s;
+    background-color: #a0d3e8;
+    color: #626262;
+    top: 15px;
+    right: 15px;
+    z-index: 999;
+    overflow: hidden;
+    height: 50px;
+    line-height: 2.5em;
+}
+
+div.message:before {
+    line-height: 0px;
+    font-size: 20px;
+    height: 12px;
+    width: 12px;
+    border-radius: 15px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
+    position: relative;
+    left: -11px;
+    background-color: #FFF;
+    padding: 12px 14px 12px 10px;
+    content: "i";
+    color: #a0d3e8;
+}
+
+div.message.error {
+    background-color: #C3232D;
+    color: #FFF;
+}
+
+div.message.error:before {
+    padding: 11px 16px 14px 7px;
+    color: #C3232D;
+    content: "x";
+}
+div.message.hidden {
+    height: 0;
+}
+
+
+.vertical-table th {
+    padding: 0.5625rem 0.625rem;
+    font-size: 0.875rem;
+    color: #1798A5;
+    border: none;
+    text-align: left;
+}
+
+.vertical-table {
+    vertical-align: middle;
+}
+
+.vertical-table td {
+    text-align: right;
+}
+
+.content {
+    padding: 2rem;
+}
+
+/* Use 'one true layout' methods to get equal height columns */
+.container {
+    overflow: hidden;
+    min-height: 92%; /* full height almost always */
+}
+
+/* Force equal height by overflowing */
+.content,
+#actions-sidebar {
+    margin-bottom: -99999px;
+    padding-bottom: 99999px;
+}
+@media(max-width: 640px) {
+    #actions-sidebar {
+        padding-bottom: 2rem;
+        margin-bottom: 0;
+    }
+}
+
+.content h3 {
+    color: #be140b;
+    padding-bottom: 0.5rem;
+    margin-bottom: 20px;
+}
+
+.content h4 {
+    color: #be140b;
+    padding-bottom: 0.5rem;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #be140b;
+}
+
+.content .related h4 {
+    color: #4d8f97;
+    padding-bottom: 0.5rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-bottom: 0px;
+}
+
+table td {
+    vertical-align: top;
+    word-break: break-all;
+}
+
+.container {
+    width: 90%;
+    margin: 10px auto;
+}
+
+.means_common {
+    display: inline;
+}
+
+.sub_con {
+    display: inline;
+}
+
+.routeCommon {
+    width: 20%;
+}
+
+.submit_btn {
+    width: 100%;
+}
+
+.select_box {
+    width: 10%;
+}
+
+.added_input_box {
+    display: inline-block;
+    width: 80%;
+}
+
+.checkUnderline {
+    border-bottom: black dashed 1px;
+    margin-top: 30px;
+
+}
+
+.check_box {
+    float: right;
+}
+
+.history_container {
+    width: 90%;
+    margin: 0 auto;
+    background-color: gainsboro;
+    border: black 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    max-height: 700px;
+    overflow: scroll;
+}
+
+.history_list {
+    font-size: 15px;
+    border-bottom: 1px black dashed;
+    margin-top: 20px;
+}
+
+.checkMark {
+    float: right;
+}
+
+.history_index_time {
+    font-size: 10px;
+}
+
+.count_0,.count_1,.count_2,.count_3,.count_4,.count_5,.count_6,.count_7,.count_8,.count_9,.title_count {
+    float:right;
+    padding-right:20px;
+}
+.del_1,.del_2,.del_3,.del_4,.del_5,.del_6,.del_7,.del_8,.del_9 {
+    float:right;
+}
+
+.regi_name {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.view_title {
+    background-color: gainsboro;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.view_time {
+    font-size: 15px;
+    display: block;
+    text-align: right;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+
+.delete_btn {
+    float: right;
+}
+
+.delete_link {
+    float: right;
+    font-size: 12px;
+}
+
+.note {
+    font-size: 13px;
+}
+
+.del_all {
+    margin-top: 10px;
+}
+
+.admin_email_check {
+    margin-left: 20px;
+    font-size: 10px;
+}
+
+.group_search_box, .show_result{
+    border-radius: 10px;
+    background: gainsboro;
+    height: 100%;
+    padding: 10px;
+    clear: both;
+}
+
+.regist_new_group {
+    float: right;
+}
+
+.search_result_title {
+    border-bottom: dashed 1px;
+    margin-bottom: 25px;
+}
+
+.show_result {
+    margin-top: 35px;
+}
+
+.found_no_group {
+    margin-top: 20px;
+}
+
+.toGroupPage {
+    float: right;
+}
+
+.table_del_col {
+    width: 15%;
+    text-align: center;
+    background:#DDDDDD;
+}
+
+.paticipant_col,.paticipant_row {
+    width: 55%;
+    background:#CCCCCC;
+}
+
+.group_col,.group_name_row {
+    background: #DDDDDD;
+}
+
+
+
+/*ハンバーガーメニューの設定*/
+
+nav.NavMenu{
+    position: fixed; /*表示位置を固定*/
+    z-index: 2; /*重ね順を変更*/
+    top: 0; /*表示位置を指定*/
+    left: 0; /*表示位置を指定*/
+    background: #fff;/*背景を白にする*/
+    color: #000; /*文字色を黒にする*/
+    text-align: center; /*テキストを中央揃え*/
+    width: 100%; /*全幅表示*/
+    transform: translateY(-100%); /*ナビを上に隠す*/
+    transition: all 0.2s; /*アニメーションの時間を指定*/
+}
+    
+nav.NavMenu ul{
+    background: #ccc; /*背景をグレーにする*/
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+}
+    
+nav.NavMenu ul li{
+    font-size: 1.1em;
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+    border-bottom: 1px dotted #333;
+}
+    
+nav.NavMenu ul li:last-child{
+    padding-bottom: 0;
+    border-bottom: none; /*最後のメニュー項目のみ下線を消す*/
+}
+    
+nav.NavMenu ul li a{
+    display: block; /*クリックできる領域を広げる*/
+    color: #000;
+    padding: 1em 0;
+}
+
+nav.NavMenu.active{
+    transform: translateY(0%);
+}
+
+.Toggle {
+    display: block;
+    position: fixed;    /* bodyに対しての絶対位置指定 */
+    right: 13px;
+    top: 3px;
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+    z-index: 3;
+}
+     
+.Toggle span {
+    display: block;
+    position: absolute;
+    width: 30px;
+    border-bottom: solid 3px white;
+    -webkit-transition: .35s ease-in-out;	/*変化の速度を指定*/
+    -moz-transition: .35s ease-in-out;		/*変化の速度を指定*/
+    transition: .35s ease-in-out;			/*変化の速度を指定*/
+    left: 6px;
+}
+    
+.Toggle span:nth-child(1) {
+    top: 9px;
+}
+    
+.Toggle span:nth-child(2) {
+    top: 18px;
+}
+    
+.Toggle span:nth-child(3) {
+    top: 27px;
+}
+    
+/* 最初のspanをマイナス45度に */
+.Toggle.active span:nth-child(1) {
+    top: 18px;
+    left: 6px;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+    
+/* 2番目と3番目のspanを45度に */
+.Toggle.active span:nth-child(2),
+.Toggle.active span:nth-child(3) {
+    top: 18px;
+    -webkit-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);
+}

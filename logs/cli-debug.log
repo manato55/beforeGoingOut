@@ -1,0 +1,100 @@
+2020-12-12 20:00:27 Notice: Notice (8): Array to string conversion in [/Users/manato/Desktop/biz-trip/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/SQLiteAdapter.php, line 1344]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Phinx\Db\Adapter\SQLiteAdapter::getSqlType() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/SQLiteAdapter.php, line 1344
+Phinx\Db\Adapter\SQLiteAdapter::getColumnSqlDefinition() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/SQLiteAdapter.php, line 1447
+Phinx\Db\Adapter\SQLiteAdapter::Phinx\Db\Adapter\{closure}() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/SQLiteAdapter.php, line 884
+Phinx\Db\Util\AlterInstructions::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Util/AlterInstructions.php, line 119
+Phinx\Db\Adapter\PdoAdapter::executeAlterSteps() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php, line 618
+Phinx\Db\Adapter\PdoAdapter::executeActions() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php, line 1020
+Phinx\Db\Adapter\AdapterWrapper::executeActions() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/AdapterWrapper.php, line 506
+Phinx\Db\Adapter\TimedOutputAdapter::executeActions() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/TimedOutputAdapter.php, line 452
+Phinx\Db\Adapter\AdapterWrapper::executeActions() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/AdapterWrapper.php, line 506
+Phinx\Db\Plan\Plan::Phinx\Db\Plan\{closure}() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Plan/Plan.php, line 154
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 64
+Phinx\Db\Plan\Plan::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Plan/Plan.php, line 155
+Phinx\Db\Table::executeActions() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Table.php, line 722
+Phinx\Db\Table::update() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Table.php, line 628
+Migrations\Table::update() - ROOT/vendor/cakephp/migrations/src/Table.php, line 130
+ChangeColumnRoleToUsers::up() - ROOT/config/Migrations/20201212103255_ChangeColumnRoleToUsers.php, line 19
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 108
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 374
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 347
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 120
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/Command/CommandTrait.php, line 35
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 66
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 258
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 920
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 266
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 142
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 108
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 531
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 169
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 162
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-12-12 20:03:22 Notice: Notice (8): Array to string conversion in [/Users/manato/Desktop/biz-trip/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/SQLiteAdapter.php, line 1344]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Phinx\Db\Adapter\SQLiteAdapter::getSqlType() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/SQLiteAdapter.php, line 1344
+Phinx\Db\Adapter\SQLiteAdapter::getColumnSqlDefinition() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/SQLiteAdapter.php, line 1447
+Phinx\Db\Adapter\SQLiteAdapter::Phinx\Db\Adapter\{closure}() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/SQLiteAdapter.php, line 884
+Phinx\Db\Util\AlterInstructions::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Util/AlterInstructions.php, line 119
+Phinx\Db\Adapter\PdoAdapter::executeAlterSteps() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php, line 618
+Phinx\Db\Adapter\PdoAdapter::executeActions() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/PdoAdapter.php, line 1020
+Phinx\Db\Adapter\AdapterWrapper::executeActions() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/AdapterWrapper.php, line 506
+Phinx\Db\Adapter\TimedOutputAdapter::executeActions() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/TimedOutputAdapter.php, line 452
+Phinx\Db\Adapter\AdapterWrapper::executeActions() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Adapter/AdapterWrapper.php, line 506
+Phinx\Db\Plan\Plan::Phinx\Db\Plan\{closure}() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Plan/Plan.php, line 154
+Cake\Collection\Collection::each() - CORE/src/Collection/CollectionTrait.php, line 64
+Phinx\Db\Plan\Plan::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Plan/Plan.php, line 155
+Phinx\Db\Table::executeActions() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Table.php, line 722
+Phinx\Db\Table::update() - ROOT/vendor/robmorgan/phinx/src/Phinx/Db/Table.php, line 628
+Migrations\Table::update() - ROOT/vendor/cakephp/migrations/src/Table.php, line 130
+ChangeColumnRoleToUsers::up() - ROOT/config/Migrations/20201212103255_ChangeColumnRoleToUsers.php, line 19
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 108
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 374
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 347
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 120
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/Command/CommandTrait.php, line 35
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 66
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 258
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 920
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 266
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 142
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 108
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 531
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 169
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 162
+[main] - ROOT/bin/cake.php, line 12
+
+
+
+2020-12-15 08:56:06 Notice: Deprecated (16384): dropTable() is deprecated since 0.10.0. Use $this->table($tableName)->drop()->save() instead. in [/Users/manato/Desktop/biz-trip/vendor/robmorgan/phinx/src/Phinx/Migration/AbstractMigration.php, line 303]
+Trace:
+Cake\Error\BaseErrorHandler::handleError() - CORE/src/Error/BaseErrorHandler.php, line 168
+Phinx\Migration\AbstractMigration::dropTable() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/AbstractMigration.php, line 303
+DropRegisterTableAgain::change() - ROOT/config/Migrations/20201214235529_DropRegisterTableAgain.php, line 15
+Phinx\Migration\Manager\Environment::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager/Environment.php, line 105
+Phinx\Migration\Manager::executeMigration() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 374
+Phinx\Migration\Manager::migrate() - ROOT/vendor/robmorgan/phinx/src/Phinx/Migration/Manager.php, line 347
+Phinx\Console\Command\Migrate::execute() - ROOT/vendor/robmorgan/phinx/src/Phinx/Console/Command/Migrate.php, line 120
+Migrations\Command\Migrate::parentExecute() - ROOT/vendor/cakephp/migrations/src/Command/CommandTrait.php, line 35
+Migrations\Command\Migrate::execute() - ROOT/vendor/cakephp/migrations/src/Command/Migrate.php, line 66
+Symfony\Component\Console\Command\Command::run() - ROOT/vendor/symfony/console/Command/Command.php, line 258
+Symfony\Component\Console\Application::doRunCommand() - ROOT/vendor/symfony/console/Application.php, line 920
+Symfony\Component\Console\Application::doRun() - ROOT/vendor/symfony/console/Application.php, line 266
+Symfony\Component\Console\Application::run() - ROOT/vendor/symfony/console/Application.php, line 142
+Migrations\Shell\MigrationsShell::main() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 108
+Cake\Console\Shell::runCommand() - CORE/src/Console/Shell.php, line 531
+Migrations\Shell\MigrationsShell::runCommand() - ROOT/vendor/cakephp/migrations/src/Shell/MigrationsShell.php, line 169
+Cake\Console\CommandRunner::runShell() - CORE/src/Console/CommandRunner.php, line 384
+Cake\Console\CommandRunner::run() - CORE/src/Console/CommandRunner.php, line 162
+[main] - ROOT/bin/cake.php, line 12
+
+
+
